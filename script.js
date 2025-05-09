@@ -9,7 +9,7 @@ let videoId = "";
 let targetViews = 0;
 let spikeStartTime;
 let spikeIntervalMinutes = 5;
-let apiKey = "AIzaSyCo5NvQZpziJdaCsOjf1H2Rq-1YeiU9Uq8";
+let apiKey = "AIzaSyDgFJ-2KbTEtO3aCIh6K_aw5pJarl_ht0Y";
 
 function startTracking() {
   clearInterval(interval);
