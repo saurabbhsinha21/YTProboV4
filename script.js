@@ -34,7 +34,7 @@ function startTracking() {
   }
 
   updateStats();
-  interval = setInterval(updateStats, 10000);
+  interval = setInterval(updateStats, 1000);
 }
 
 function initChart() {
@@ -75,12 +75,12 @@ function updateStats() {
       chart.update();
 
       const stats = {
-        5: getViewsDiffByPoints(30),
-        10: getViewsDiffByPoints(60),
-        15: getViewsDiffByPoints(90),
-        20: getViewsDiffByPoints(120),
-        25: getViewsDiffByPoints(150),
-        30: getViewsDiffByPoints(180),
+        5: getViewsDiffByPoints(300),
+        10: getViewsDiffByPoints(600),
+        15: getViewsDiffByPoints(900),
+        20: getViewsDiffByPoints(1200),
+        25: getViewsDiffByPoints(1500),
+        30: getViewsDiffByPoints(1800),
       };
 
       for (const [min, views] of Object.entries(stats)) {
